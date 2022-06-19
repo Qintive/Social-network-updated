@@ -1,0 +1,44 @@
+
+.poster img{
+  height: 150px;
+  width: 100%;
+}
+.poster{
+  height: 100px;
+  grid-area: j;
+}
+.avatar{
+  height: 230px;
+  grid-area: p;
+  margin-top: 50px;
+}
+
+.avatar img{
+  height: 200px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+
+
+.grid {
+  display: grid;
+
+  grid-template-areas:
+  "j j"
+  "p s";
+
+  grid-template-rows: 120px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.gridArea{
+  grid-area: s;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.statusProfile{
+  margin-bottom: 45px;
+  margin-top: 10px;
+}
